@@ -3,13 +3,12 @@ import { getAuth, GoogleAuthProvider, signInWithEmailAndPassword, createUserWith
 import { getFirestore, doc, where, setDoc, collection, addDoc, getDocs, query, orderBy, getDoc, limit, updateDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDAnH4Hm54GJ6h5gQMtExwJolE8FbHNBBg",
-  authDomain: "prod-ai-dd945.firebaseapp.com",
-  projectId: "prod-ai-dd945",
-  storageBucket: "prod-ai-dd945.appspot.com",
-  messagingSenderId: "339827130138",
-  appId: "1:339827130138:web:0f785b198075e5d654b6a3",
-  measurementId: "G-V3J4963LJ7"
+  apiKey: "AIzaSyBW-Yi-mjel8N3ykHKCLRPVp8S_vdPfy1M",
+  authDomain: "converseai-2c1da.firebaseapp.com",
+  projectId: "converseai-2c1da",
+  storageBucket: "converseai-2c1da.firebasestorage.app",
+  messagingSenderId: "733139942027",
+  appId: "1:733139942027:web:01e8234742d08cf684b28e"
 };
 
 export let firebaseApp: FirebaseApp;
